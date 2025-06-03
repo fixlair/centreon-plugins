@@ -25,8 +25,8 @@ Table of contents
 
 ## 1. Overview
 
-Centreon plugins are a free and open source way to monitor systems. The project 
-can be used with Centreon and all monitoring softwares compatible with Nagios 
+Centreon plugins are a free and open source way to monitor systems. The project
+can be used with Centreon and all monitoring software compatible with Nagios
 plugins. You can monitor many systems:
 
 * **application**: Apache, Asterisk, Elasticsearch, Github, Jenkins, Kafka, 
@@ -55,7 +55,7 @@ But to avoid reinventing the wheel, you should first take a look at the
 “example” directory, you will get an overview of how to build your own plugin 
 and associated modes.
 
-The lastest version is available on following git repository: 
+The latest version is available on following git repository:
 https://github.com/centreon/centreon-plugins.git
 
 [Table of contents](#table_of_contents)
@@ -376,10 +376,10 @@ One of the centreon libraries :
 use base qw(**centreon_library**);
 ```
 There are five kinds of centreon libraries access here :
-* centreon::plugins::script_simple : Previously the general use case if no custom is needed, more explainations [here](tutorial-api.md) in this section.
-* centreon::plugins::script_custom : Need custom directory - More explainations [here](tutorial-api.md) in this section.
+* centreon::plugins::script_simple : Previously the general use case if no custom is needed, more explanations [here](tutorial-api.md) in this section.
+* centreon::plugins::script_custom : Need custom directory - More explanations [here](tutorial-api.md) in this section.
 * centreon::plugins::script_snmp : If SNMP protocol is needed for this plugin
-* centreon::plugins::script_sql : If DB acess is needed for this plugin
+* centreon::plugins::script_sql : If DB access is needed for this plugin
 * centreon::plugins::script_wsman : Concern Windows specific protocols
 
 

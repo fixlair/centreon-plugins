@@ -3,9 +3,9 @@ Description
 ***********
 
 "centreon-plugins" is a free and open source project to monitor systems.
-The project can be used with Centreon, Icinga and all monitoring softwares compatible Nagios plugins.
+The project can be used with Centreon, Icinga and all monitoring software compatible with Nagios plugins.
 
-The lastest version is available on following git repository: https://github.com/centreon/centreon-plugins.git
+The latest version is available on following git repository: https://github.com/centreon/centreon-plugins.git
 
 ************
 Installation
